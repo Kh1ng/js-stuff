@@ -10,7 +10,6 @@ const displayMessage = function (message) {
 
 const guess = function () {
   const guess = Number(document.querySelector('.guess').value);
-  console.log(guess, typeof guess);
 
   // When there is no input
   if (!guess) {
